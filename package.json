@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Restarting Backend Project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "Node",
+    "Javascript",
+    "MERN"
+  ],
+  "author": "Satyam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "prettier": "^3.0.3"
+  }
+}
